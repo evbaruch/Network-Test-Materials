@@ -30,4 +30,20 @@ def process_pcapng(file_path):
         print("-" * 50)
 
 # Replace 'file.pcapng' with your actual file path
-process_pcapng('file.pcapng')
+process_pcapng('Lesson 1\wwb001-http.pcapng')
+
+# Output
+"""
+Source MAC: d4:85:64:a7:bf:a3, Destination MAC: ac:5d:10:11:e2:b9
+Source IP: 192.168.1.72, Destination IP: 98.136.187.13
+Source Port: 6129, Destination Port: 80
+--------------------------------------------------
+Source MAC: ac:5d:10:11:e2:b9, Destination MAC: d4:85:64:a7:bf:a3
+Source IP: 98.136.187.13, Destination IP: 192.168.1.72
+Source Port: 80, Destination Port: 6131
+--------------------------------------------------
+Source MAC: d4:85:64:a7:bf:a3, Destination MAC: ac:5d:10:11:e2:b9
+Source IP: 192.168.1.72, Destination IP: 98.136.187.13
+Source Port: 6131, Destination Port: 80
+--------------------------------------------------
+"""
